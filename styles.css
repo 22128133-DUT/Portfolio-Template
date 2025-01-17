@@ -1,6 +1,4 @@
-/*===============
-  global styles
-===============*/
+/*=============== Global Styles ===============*/
 
 * {
   padding: 0;
@@ -99,7 +97,7 @@ button {
 }
 
 /*===================
-  buttons and links
+  Buttons and Links
 ===================*/
 
 .link {
@@ -140,7 +138,7 @@ button {
 }
 
 .btn {
-  display: block;
+  display: inline-block;
   padding: 0.8em 1.4em;
   font-weight: 500;
   font-size: 0.9rem;
@@ -204,7 +202,7 @@ button {
 }
 
 /*========
-  layout
+  Layout
 ========*/
 
 .center {
