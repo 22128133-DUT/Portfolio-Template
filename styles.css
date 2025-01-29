@@ -44,15 +44,11 @@ body {
 }
 
 #theme-toggle {
-  position: absolute;
-  top: 46.5px; 
-  left: 350px; 
   background-color: transparent;
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--clr-primary);
-  z-index: 10; 
   transition: opacity 0.3s ease-in-out;
 }
 
