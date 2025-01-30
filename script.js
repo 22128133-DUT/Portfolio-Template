@@ -1,8 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
     const themeToggle = document.getElementById("theme-toggle");
+    const hamburger = document.querySelector('.nav__hamburger');
+    const navList = document.querySelector('.nav__list');
     const body = document.body;
+
+    hamburger.addEventListener('click', () => {
+      navList.classList.toggle('display-nav-list');
+    });
   
-    // Load and apply saved theme from localStorage
     const savedTheme = localStorage.getItem("theme");
     if (savedTheme) {
       body.classList.add(savedTheme);
