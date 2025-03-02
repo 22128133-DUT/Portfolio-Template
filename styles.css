@@ -25,22 +25,23 @@ body {
 }
 
 .light {
-  --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --clr-bg: #FCFCFC; /* Background Color (Soft Light Gray) */
+  --clr-bg-alt: #FFFFFF; /* Alternate Background (Pure White) */
+  --clr-fg: #2C3E50; /* Font Color (Deep Navy Blue) */
+  --clr-fg-alt: #444444; /* Alternate Font Color (Teal Green) */
+  --clr-primary: #1E90FF; /* Primary Brand Color (Bright Blue from Palette 1) */
+/* Accent Color (Bright Coral Red) */
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; /* Light Shadow */
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
+  --clr-bg: #333333; /* Background Color (Charcoal Black) */
+  --clr-bg-alt: #2A2F4C; /* Alternate Background (Darker Shade) */
+  --clr-fg: #F5F5F5; /* Font Color (Light Gray/Off-White) */
+  --clr-fg-alt: #2E86C1; /* Alternate Font Color (Bright Blue) */
+  --clr-primary: #FF6F00; /* Primary Brand Color (Deep Orange) */
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+            rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; /* Dark Shadow */
 }
 
 #theme-toggle {
